@@ -18,5 +18,10 @@
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "pug": "^2.0.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*.json"
+    ]
   }
 }
